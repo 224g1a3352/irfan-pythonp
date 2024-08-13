@@ -1,0 +1,11 @@
+import turtle
+turtle.setup(800,600)
+window=turtle.Screen()
+window.title("My turtle")
+tr=turtle.getturtle()
+tr.hideturtle()
+tr.setposition(100,0)
+tr.setposition(250,0)
+tr.setposition(125,250)
+tr.setposition(0,0)
+turtle.exitonclick()
